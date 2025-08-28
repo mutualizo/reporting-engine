@@ -1,0 +1,161 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* report_qweb_pdf_cover
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-28 15:11+0000\n"
+"PO-Revision-Date: 2025-08-28 15:11+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: report_qweb_pdf_cover
+#: model:ir.model.fields,field_description:report_qweb_pdf_cover.field_ir_actions_report__back_cover_pdf
+msgid "Back Cover PDF"
+msgstr "Contracapa PDF (Última Página)"
+
+#. module: report_qweb_pdf_cover
+#: model:ir.model.fields,field_description:report_qweb_pdf_cover.field_ir_actions_report__display_name
+msgid "Display Name"
+msgstr "Nome exibido"
+
+#. module: report_qweb_pdf_cover
+#: code:addons/report_qweb_pdf_cover/models/ir_actions_report.py:0
+#, python-format
+msgid "Failed to load back cover: %s"
+msgstr "Falha ao carregar contracapa: %s"
+
+#. module: report_qweb_pdf_cover
+#: code:addons/report_qweb_pdf_cover/models/ir_actions_report.py:0
+#, python-format
+msgid "Failed to load front cover: %s"
+msgstr "Falha ao carregar capa: %s"
+
+#. module: report_qweb_pdf_cover
+#: model:ir.model.fields,field_description:report_qweb_pdf_cover.field_ir_actions_report__front_cover_pdf
+msgid "Front Cover PDF"
+msgstr "Capa PDF (Primeira Página)"
+
+#. module: report_qweb_pdf_cover
+#: model:ir.model.fields,field_description:report_qweb_pdf_cover.field_ir_actions_report__id
+msgid "ID"
+msgstr ""
+
+#. module: report_qweb_pdf_cover
+#: model:ir.model.fields,field_description:report_qweb_pdf_cover.field_ir_actions_report____last_update
+msgid "Last Modified on"
+msgstr "Última modificação em"
+
+#. module: report_qweb_pdf_cover
+#: code:addons/report_qweb_pdf_cover/models/ir_actions_report.py:0
+#, python-format
+msgid "No usable back cover found."
+msgstr "Nenhuma contracapa válida encontrada."
+
+#. module: report_qweb_pdf_cover
+#: code:addons/report_qweb_pdf_cover/models/ir_actions_report.py:0
+#, python-format
+msgid "No usable front cover found."
+msgstr "Nenhuma capa válida encontrada."
+
+#. module: report_qweb_pdf_cover
+#: model:ir.model.fields,field_description:report_qweb_pdf_cover.field_ir_actions_report__back_cover_overlap
+msgid "Overlap Back Cover"
+msgstr "Sobrepor última página"
+
+#. module: report_qweb_pdf_cover
+#: model:ir.model.fields,field_description:report_qweb_pdf_cover.field_ir_actions_report__front_cover_overlap
+msgid "Overlap Front Cover"
+msgstr "Sobrepor primeira página"
+
+#. module: report_qweb_pdf_cover
+#: model:ir.model,name:report_qweb_pdf_cover.model_ir_actions_report
+msgid "Report Action"
+msgstr "Reportar Ação"
+
+#. module: report_qweb_pdf_cover
+#: model:ir.model.fields,help:report_qweb_pdf_cover.field_ir_actions_report__back_cover_pdf
+msgid "Upload an PDF file to use as a back cover on this report."
+msgstr "Faça o upload do arquivo PDF para usar como contracapa nesse relatório."
+
+#. module: report_qweb_pdf_cover
+#: model:ir.model.fields,help:report_qweb_pdf_cover.field_ir_actions_report__front_cover_pdf
+msgid "Upload an PDF file to use as a front cover on this report."
+msgstr "Faça o upload do arquivo PDF para usar como capa nesse relatório."
+
+#. module: report_qweb_pdf_cover
+#: model:ir.model.fields,field_description:report_qweb_pdf_cover.field_ir_actions_report__use_back_cover
+msgid "Use Back Cover"
+msgstr "Usa Contracapa"
+
+#. module: report_qweb_pdf_cover
+#: model:ir.model.fields,field_description:report_qweb_pdf_cover.field_ir_actions_report__use_front_cover
+msgid "Use Front Cover"
+msgstr "Usar Capa"
+
+#. module: report_qweb_pdf_cover
+#: model:ir.model.fields,help:report_qweb_pdf_cover.field_ir_actions_report__use_back_cover
+msgid "Use a back cover when rendering the PDF report."
+msgstr "Usar uma contracapa quando renderizar o relatório PDF."
+
+#. module: report_qweb_pdf_cover
+#: model:ir.model.fields,help:report_qweb_pdf_cover.field_ir_actions_report__use_front_cover
+msgid "Use a front cover when rendering the PDF report."
+msgstr "Usar uma capa quando renderizar o relatório PDF."
+
+#. module: report_qweb_pdf_cover
+#: model:ir.model.fields,help:report_qweb_pdf_cover.field_ir_actions_report__back_cover_overlap
+msgid ""
+"When set, the back cover of the report will overlap with the contents of the"
+" last page of the report. This is useful to include some information of the "
+"report in the back cover."
+msgstr ""
+"Quando marcada, a contracapa do relatório vai sobrepor o conteúdo da"
+" última página do relatório. Isso é útil para incluir algumas informações da "
+"contracapa do relatório."
+
+#. module: report_qweb_pdf_cover
+#: model:ir.model.fields,help:report_qweb_pdf_cover.field_ir_actions_report__front_cover_overlap
+msgid ""
+"When set, the front cover of the report will overlap with the contents of "
+"the first page of the report. This is useful to include some information of "
+"the report in the front cover."
+msgstr ""
+"Quando marcada, a capa do relatório vai sobrepor o conteúdo da"
+" primeira página do relatório. Isso é útil para incluir algumas informações da "
+"capa do relatório."
+
+#. module: report_qweb_pdf_cover
+#: code:addons/report_qweb_pdf_cover/models/ir_actions_report.py:0
+#, python-format
+msgid ""
+"Your back cover PDF contains more than one page, all but the first one will "
+"be ignored."
+msgstr "Sua contracapa PDF contém mais de uma página, apenas a primeira será utilizada."
+
+#. module: report_qweb_pdf_cover
+#: code:addons/report_qweb_pdf_cover/models/ir_actions_report.py:0
+#, python-format
+msgid "Your back cover PDF does not contain any pages."
+msgstr "Sua contracapa PDF não contém nenhuma página."
+
+#. module: report_qweb_pdf_cover
+#: code:addons/report_qweb_pdf_cover/models/ir_actions_report.py:0
+#, python-format
+msgid ""
+"Your front cover PDF contains more than one page, all but the first one will"
+" be ignored."
+msgstr "Sua capa PDF contém mais de uma página, apenas a primeira será utilizada."
+
+#. module: report_qweb_pdf_cover
+#: code:addons/report_qweb_pdf_cover/models/ir_actions_report.py:0
+#, python-format
+msgid "Your front cover PDF does not contain any pages."
+msgstr "Sua capa PDF não contém nenhuma página."
+
